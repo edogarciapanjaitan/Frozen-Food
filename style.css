@@ -1,0 +1,162 @@
+ body { 
+        font-family: Arial, sans-serif; 
+        background-color: #f4f4f4; 
+        margin: 0; 
+        padding: 20px; 
+        }
+
+        header { 
+        text-align: center; 
+        padding: 20px; 
+        background-image: url('FF1.jpg');
+        background-size:cover;
+        background-position: center; 
+        border-radius: 10px; 
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        
+        /* Layout Katalog */
+        .katalog { 
+        display: grid; 
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 20px; 
+    }
+        .produk-card { 
+        background: white; 
+        padding: 15px; 
+        border-radius: 10px; 
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+        text-align: center;
+        }
+
+        .produk-card img {
+        max-width: 100%; 
+        border-radius: 8px; 
+        height: 150px; 
+        object-fit: cover; 
+        }
+
+        .harga { 
+        color: #e67e22; 
+        font-weight: bold; 
+        font-size: 1.2em; 
+        margin: 10px 0; 
+        }
+        
+        button { 
+        background: #87CEEB; 
+        color: white; 
+        border: none; 
+        padding: 10px 15px; 
+        border-radius: 5px; 
+        cursor: pointer; 
+        width: 100%; 
+        }
+
+        button:hover { background: #00BFFF; }
+
+        /* Area Keranjang */
+        .keranjang { 
+        margin-top: 40px; 
+        background: white; 
+        padding: 20px; 
+        border-radius: 10px; 
+        border-top: 5px solid #87CEEB; 
+        }
+        .item-keranjang { 
+        display: flex; 
+        justify-content: space-between; 
+        border-bottom: 1px solid #eee; 
+        padding: 10px 0; 
+        }
+        .total { 
+        font-size: 1.5em; 
+        font-weight: bold; 
+        text-align: right; 
+        margin-top: 15px; 
+        }
+        
+        .btn-wa { 
+        background: #87CEEB; 
+        font-size: 1.1em; 
+        padding: 15px; 
+        margin-top: 10px; 
+        }
+
+        .pagination { 
+        text-align: center; 
+        margin: 30px 0; 
+        }
+
+        .pagination button { 
+        width: auto; 
+        margin: 0 5px; 
+        padding: 8px 15px; 
+        background-color: #eee; 
+        color: #333; 
+        }
+
+        .pagination button.active { 
+        background-color: #393b3a; 
+        color: white; 
+        }
+
+        /* Quantity Controls */
+        .quantity-control {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .qty-btn {
+            width: 28px;
+            height: 28px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            background: #f0f0f0;
+            color: #333;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .qty-btn:hover {
+            background: #87CEEB;
+            color: white;
+            border-color: #87CEEB;
+        }
+        .qty-display {
+            min-width: 30px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .hapus-btn {
+            background: #ff6b6b;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+            margin-left: 10px;
+        }
+        .hapus-btn:hover {
+            background: #ff4757;
+        }
+        .item-keranjang {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #eee;
+            padding: 10px 0;
+        }
+        .item-info {
+            flex: 1;
+        }
+        .item-actions {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
