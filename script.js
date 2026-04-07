@@ -9,7 +9,7 @@
         { nama: "Nugget Kanzler (450g)", harga: 45000, img: "kanzler.jpeg" },
         { nama: "GoGo French Fries Shoestring (1kg)", harga: 35000, img: "gogoshoe.jpeg" },
         { nama: "GoGo French Fries 1kg (Crincle Cut)", harga: 37000, img: "gogocrincle.jpeg" },
-        { nama: "Ayam Ungkep (8 pcs)", harga: 45000, img: "kentang.jpg" },
+        { nama: "Ayam Ungkep (8 pcs)", harga: 45000, img: "Ayam.jpg" },
         { nama: "Sosis Sapi Kimbo (10 pcs)", harga: 35000, img: "kimbo.jpg" },
         { nama: "Gyoza Prima (250g)", harga: 24000, img: "gyoza.jpg" },
         { nama: "Roti Maryam Coklat (5pcs)", harga: 24000, img: "maryam.jpeg" },
